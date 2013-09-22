@@ -25,7 +25,6 @@ function addPrefixes(pkg, cb) {
   files.forEach(function(file) {
     var css = fs.readFileSync(pkg.path(file), 'utf-8');
     css = autoprefixer.compile(css)
-    css = '\n// file:' + file + '\n\n' + css;
     pkg.addFile('styles', file, css);
   });
 
