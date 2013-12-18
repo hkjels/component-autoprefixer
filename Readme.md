@@ -5,14 +5,14 @@ Uses [autoprefixer](https://github.com/ai/autoprefixer) to add
 vendor-prefixes to your stylesheets.
 
 
-### Installing
+### Install
 
-    $ npm install component-autoprefixer -g
+    $ npm install component-autoprefixer
 
 
 ### Usage
 
-    $ component --use component-autoprefixer
+    $ component build --use component-autoprefixer
 
 
 ### License
